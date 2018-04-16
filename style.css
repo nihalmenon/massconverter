@@ -1,0 +1,111 @@
+ @import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+ * {
+ 	padding: 0;
+ 	margin: 0;
+ 	box-sizing: border-box;
+ }
+
+ body {
+ 	background: black;
+ }
+
+ h1 {
+ 	color: white;
+ 	text-align: center;
+ 	font-size: 10em;
+ 	font-family: sans-serif;
+ }
+
+ .suit_and_tie {
+  color: black;
+  font-size: 20px;
+  font-family: helvetica;
+  
+  text-decoration: none;
+  
+  border: 2px solid black;
+  border-radius: 20px;
+  
+  transition-duration: .2s;
+  -webkit-transition-duration: .2s;
+  -moz-transition-duration: .2s;
+  
+  background-color: white;
+  padding: 4px 30px;
+}
+
+.suit_and_tie:hover {
+  color:white;
+  background-color:black;
+  
+  transition-duration: .2s;
+  -webkit-transition-duration: .11s;
+  -moz-transition-duration: .2s;
+}
+
+.variation-b {
+  display: inline-block;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.variation-b {
+  background-color: black;
+}
+
+.variation-b .suit_and_tie {
+  color: white;
+  
+  border: 2px solid white;
+  
+  background-color: black;
+}
+
+.variation-b .suit_and_tie:hover {
+  color: black;
+  
+  border: 2px solid black;
+  
+  background-color: white;
+}
+
+button.suit_and_tie {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+ #kilograms, #pounds, #newtons {
+ 	height: 33.33vh;
+ }
+
+ #pounds {
+ 	border-top: 4px solid white;
+ 	border-bottom: 4px solid white;
+ }
+
+ input[type=number] {
+ 	width: 100%;
+	height: 100%; 
+	outline: none;
+	background: black;
+	font-family: Asap, sans-serif;
+	color: white;
+	font-size: 9em;
+	text-align: center;
+	border: 0;
+ }
+
+ ::-webkit-input-placeholder {
+	color: #333333;
+}
+
+::-moz-input-placeholder {
+	color: #333333;
+}
+
+::-ms-input-placeholder {
+	color: #333333;
+}
