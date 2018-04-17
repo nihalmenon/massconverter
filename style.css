@@ -98,6 +98,11 @@ button.suit_and_tie {
 	border: 0;
  }
 
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
  ::-webkit-input-placeholder {
 	color: #333333;
 }
